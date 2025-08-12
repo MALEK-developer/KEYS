@@ -16,5 +16,10 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 1.5vw;
+}
 
+@media only screen and (max-width:1024px) {
+    .key_btn{
+        font-size: 5vw;
+    }
 }
