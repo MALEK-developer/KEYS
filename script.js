@@ -1,5 +1,9 @@
 let keys = document.querySelectorAll('.key_btn');
 
+let inee = false;
+
+let audio = new Audio('jadu_om_om_loud.mp3');
+
 document.addEventListener('keyup', () => {
 
     keys.forEach((key) => {
@@ -12,6 +16,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn1').style.backgroundColor = 'black';
         document.querySelector('.key_btn1').style.color = 'white';
         document.querySelector('.key_btn1').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is a.');
     }
 
@@ -19,6 +24,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn2').style.backgroundColor = 'black';
         document.querySelector('.key_btn2').style.color = 'white';
         document.querySelector('.key_btn2').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is b.');
     }
 
@@ -26,6 +32,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn3').style.backgroundColor = 'black';
         document.querySelector('.key_btn3').style.color = 'white';
         document.querySelector('.key_btn3').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is c.');
     }
 
@@ -33,6 +40,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn4').style.backgroundColor = 'black';
         document.querySelector('.key_btn4').style.color = 'white';
         document.querySelector('.key_btn4').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is d.');
     }
 
@@ -40,6 +48,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn5').style.backgroundColor = 'black';
         document.querySelector('.key_btn5').style.color = 'white';
         document.querySelector('.key_btn5').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is e.');
     }
 
@@ -47,6 +56,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn6').style.backgroundColor = 'black';
         document.querySelector('.key_btn6').style.color = 'white';
         document.querySelector('.key_btn6').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is f.');
     }
 
@@ -54,6 +64,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn7').style.backgroundColor = 'black';
         document.querySelector('.key_btn7').style.color = 'white';
         document.querySelector('.key_btn7').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is g.');
     }
 
@@ -61,6 +72,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn8').style.backgroundColor = 'black';
         document.querySelector('.key_btn8').style.color = 'white';
         document.querySelector('.key_btn8').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is h.');
     }
 
@@ -68,6 +80,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn9').style.backgroundColor = 'black';
         document.querySelector('.key_btn9').style.color = 'white';
         document.querySelector('.key_btn9').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is i.');
     }
 
@@ -75,6 +88,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn10').style.backgroundColor = 'black';
         document.querySelector('.key_btn10').style.color = 'white';
         document.querySelector('.key_btn10').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is j.');
     }
 
@@ -82,6 +96,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn11').style.backgroundColor = 'black';
         document.querySelector('.key_btn11').style.color = 'white';
         document.querySelector('.key_btn11').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is k.');
     }
 
@@ -89,6 +104,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn12').style.backgroundColor = 'black';
         document.querySelector('.key_btn12').style.color = 'white';
         document.querySelector('.key_btn12').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is l.');
     }
 
@@ -96,6 +112,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn13').style.backgroundColor = 'black';
         document.querySelector('.key_btn13').style.color = 'white';
         document.querySelector('.key_btn13').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is m.');
     }
 
@@ -103,6 +120,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn14').style.backgroundColor = 'black';
         document.querySelector('.key_btn14').style.color = 'white';
         document.querySelector('.key_btn14').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is n.');
     }
 
@@ -110,6 +128,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn15').style.backgroundColor = 'black';
         document.querySelector('.key_btn15').style.color = 'white';
         document.querySelector('.key_btn15').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is o.');
     }
 
@@ -117,6 +136,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn16').style.backgroundColor = 'black';
         document.querySelector('.key_btn16').style.color = 'white';
         document.querySelector('.key_btn16').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is p.');
     }
 
@@ -124,6 +144,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn17').style.backgroundColor = 'black';
         document.querySelector('.key_btn17').style.color = 'white';
         document.querySelector('.key_btn17').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is q.');
     }
 
@@ -131,6 +152,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn18').style.backgroundColor = 'black';
         document.querySelector('.key_btn18').style.color = 'white';
         document.querySelector('.key_btn18').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is r.');
     }
 
@@ -138,6 +160,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn19').style.backgroundColor = 'black';
         document.querySelector('.key_btn19').style.color = 'white';
         document.querySelector('.key_btn19').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is s.');
     }
 
@@ -145,6 +168,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn20').style.backgroundColor = 'black';
         document.querySelector('.key_btn20').style.color = 'white';
         document.querySelector('.key_btn20').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is t.');
     }
 
@@ -152,6 +176,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn21').style.backgroundColor = 'black';
         document.querySelector('.key_btn21').style.color = 'white';
         document.querySelector('.key_btn21').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is u.');
     }
 
@@ -159,6 +184,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn22').style.backgroundColor = 'black';
         document.querySelector('.key_btn22').style.color = 'white';
         document.querySelector('.key_btn22').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is v.');
     }
 
@@ -166,6 +192,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn23').style.backgroundColor = 'black';
         document.querySelector('.key_btn23').style.color = 'white';
         document.querySelector('.key_btn23').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is w.');
     }
 
@@ -173,6 +200,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn24').style.backgroundColor = 'black';
         document.querySelector('.key_btn24').style.color = 'white';
         document.querySelector('.key_btn24').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is x.');
     }
 
@@ -180,6 +208,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn25').style.backgroundColor = 'black';
         document.querySelector('.key_btn25').style.color = 'white';
         document.querySelector('.key_btn25').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is y.');
     }
 
@@ -187,6 +216,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn26').style.backgroundColor = 'black';
         document.querySelector('.key_btn26').style.color = 'white';
         document.querySelector('.key_btn26').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is z.');
     }
 
@@ -194,6 +224,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn27').style.backgroundColor = 'black';
         document.querySelector('.key_btn27').style.color = 'white';
         document.querySelector('.key_btn27').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is Control.');
     }
 
@@ -201,6 +232,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn28').style.backgroundColor = 'black';
         document.querySelector('.key_btn28').style.color = 'white';
         document.querySelector('.key_btn28').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is Alt.');
     }
 
@@ -208,9 +240,16 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn29').style.backgroundColor = 'black';
         document.querySelector('.key_btn29').style.color = 'white';
         document.querySelector('.key_btn29').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is Shift.');
+        inee = !inee;
         keys.forEach((new_key) => {
-            new_key.textContent = new_key.textContent.toUpperCase();
+            if (inee === true) {
+                new_key.textContent = new_key.textContent.toUpperCase();
+            }
+            else {
+                new_key.textContent = new_key.textContent.toLowerCase();
+            }
         });
     }
 
@@ -218,6 +257,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn30').style.backgroundColor = 'black';
         document.querySelector('.key_btn30').style.color = 'white';
         document.querySelector('.key_btn30').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is Tab.');
     }
 
@@ -225,6 +265,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn31').style.backgroundColor = 'black';
         document.querySelector('.key_btn31').style.color = 'white';
         document.querySelector('.key_btn31').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is  .');
     }
 
@@ -232,6 +273,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn32').style.backgroundColor = 'black';
         document.querySelector('.key_btn32').style.color = 'white';
         document.querySelector('.key_btn32').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is Escape.');
     }
 
@@ -239,6 +281,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn33').style.backgroundColor = 'black';
         document.querySelector('.key_btn33').style.color = 'white';
         document.querySelector('.key_btn33').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is Backspace.');
     }
 
@@ -246,6 +289,7 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn34').style.backgroundColor = 'black';
         document.querySelector('.key_btn34').style.color = 'white';
         document.querySelector('.key_btn34').style.boxShadow = '0px 0px 10px black';
+        audio.play();
         // alert('Entered Key is Enter.');
     }
 
@@ -253,5 +297,6 @@ document.addEventListener('keyup', () => {
         document.querySelector('.key_btn').style.backgroundColor = 'black';
         document.querySelector('.key_btn').style.color = 'white';
         document.querySelector('.key_btn').style.boxShadow = '0px 0px 10px black';
-    }
+        audio.play();
+    }   
 });
