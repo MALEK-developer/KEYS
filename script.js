@@ -2,7 +2,7 @@ let keys = document.querySelectorAll('.key_btn');
 
 let inee = false;
 
-let audio = new Audio('jadu.mp3');
+let audio = new Audio('jadu_om_om_loud.mp3');
 
 document.addEventListener('keyup', () => {
 
@@ -300,5 +300,6 @@ document.addEventListener('keyup', () => {
         audio.play();
     }   
 });
+
 
 
